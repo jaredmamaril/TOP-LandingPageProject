@@ -13,6 +13,10 @@ html, body {
     border: 1px solid black;
 }
 
+.section1 {
+    background-color: white;
+}
+
 .logo {
     display: flex;
     justify-content: space-between;
