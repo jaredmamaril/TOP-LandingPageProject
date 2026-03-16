@@ -30,10 +30,11 @@ html, body {
     width: auto;
 }
 
-.button {
+.links {
     display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
+    gap: 20px;
+}
+.button {
     padding: 13px;
     color: white;
     font-size: 18px;
