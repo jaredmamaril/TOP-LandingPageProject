@@ -6,17 +6,36 @@ html, body {
 .container {
     display: flex;
     flex-direction: column;
-    height: 100vh;
-    align-items: stretch;
 }
 
 .section {
-    flex: 1;
+    min-height: 80vh;
     border: 1px solid black;
 }
 
+.logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    width: 80%;
+}
+
+.logo img {
+    height: 100px;
+    width: auto;
+}
+
+.life-at-uic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    color: black;
+    font-size: 18px;
+}
 .footer {
-    height: 50px;
+    height: 150px;
     background-color: aqua;
     border: 1px solid black;
 }
