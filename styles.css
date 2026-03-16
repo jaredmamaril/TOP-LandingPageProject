@@ -22,7 +22,7 @@ html, body {
     justify-content: space-between;
     align-items: center;
     padding: 15px;
-    width: 80%;
+    width: 90%;
 }
 
 .logo img {
@@ -30,14 +30,19 @@ html, body {
     width: auto;
 }
 
-.life-at-uic {
+.button {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 15px;
-    color: black;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 13px;
+    color: white;
     font-size: 18px;
+    font-family:'Times New Roman', Times, serif;
+    text-decoration: none;
+    background-color: red;
+    border-radius: 10px;
 }
+
 .footer {
     height: 150px;
     background-color: aqua;
