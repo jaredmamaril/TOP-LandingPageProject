@@ -44,6 +44,14 @@ html, body {
     border-radius: 10px;
 }
 
+.welcome-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 20%;
+    margin-top: 25px;
+}
+
 .footer {
     height: 150px;
     background-color: aqua;
