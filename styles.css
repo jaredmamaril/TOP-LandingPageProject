@@ -62,14 +62,13 @@ html, body {
 }
 
 .learn-more {
-    margin-top: 20px;
+    background-color: blue;
 }
 
 .welcome-content {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin-top: 20px;
     background-color: red;
     border-radius: 15px;
     padding: 20px;
