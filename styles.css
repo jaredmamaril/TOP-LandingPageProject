@@ -93,7 +93,13 @@ html, body {
     padding: 20px;
 }
 
-
+.random-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 10px;
+}
 
 .footer {
     height: 150px;
