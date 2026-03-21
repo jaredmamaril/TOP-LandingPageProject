@@ -19,6 +19,10 @@ html, body {
 .section2 {
     background-color:midnightblue;
 }
+
+.section3 {
+    background-color: lightgray;
+}
 .logo {
     display: flex;
     justify-content: space-between;
