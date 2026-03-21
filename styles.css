@@ -22,6 +22,9 @@ html, body {
 
 .section3 {
     background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .logo {
@@ -135,8 +138,11 @@ html, body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px;
-    color: gray;
+    padding: 40px;
+    color: dimgray;
+    width: 60%;
+    font-style: italic;
+    font-weight: 300;
 }
 
 .footer {
