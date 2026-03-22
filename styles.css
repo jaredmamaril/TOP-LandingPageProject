@@ -27,6 +27,12 @@ html, body {
     align-items: center;
 }
 
+.section4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .logo {
     display: flex;
     justify-content: space-between;
@@ -154,8 +160,14 @@ html, body {
 
 .call-to-action {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
+    justify-content: space-between;
+    background-color: lightgray;
+    border-radius: 10px;
+    padding: 40px 100px;
+    width: 70%;
+    color: white;
 }
 
 .footer {
