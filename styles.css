@@ -152,6 +152,11 @@ html, body {
     font-style: normal;
 }
 
+.call-to-action {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 .footer {
     height: 150px;
